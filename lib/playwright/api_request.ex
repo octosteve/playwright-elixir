@@ -1,4 +1,4 @@
 defmodule Playwright.APIRequest do
   @moduledoc false
-  use Playwright.ChannelOwner
+  use Playwright.SDK.ChannelOwner
 end

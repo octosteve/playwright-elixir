@@ -2,7 +2,7 @@ defmodule Playwright.Worker do
   @moduledoc """
   ...
   """
-  use Playwright.ChannelOwner
+  use Playwright.SDK.ChannelOwner
 
   # @spec expect_event(t(), binary(), function(), options()) :: map()
   # def expect_event(worker, event, predicate \\ nil, options \\ %{})
